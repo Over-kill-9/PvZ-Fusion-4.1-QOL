@@ -13,7 +13,7 @@ A lightweight drop-in **MelonLoader + Quality-of-Life (QOL)** patch updated for 
 
 1. Download and extract **Tproplay's PvZ Fusion 4.1 English PC** build from [Tproplay/Pvz-Fusion-Translation-Lite Releases](https://github.com/Tproplay/Pvz-Fusion-Translation-Lite/releases).
 2. Download **`PvZ-Fusion-4.1-QOL-Patch.zip`** from the [Releases](../../releases) page.
-3. Extract all contents of `PvZ-Fusion-4.1-QOL-Patch.zip` directly into your `PvZ-Fusion-4.1-English-PC` folder (where `PlantsVsZombiesRH.exe` is located).
+3. Extract all contents of `PvZ-Fusion-4.1-QOL-Patch.zip`
 4. Run **`PlantsVsZombiesRH.exe`**. *(The first launch may take approximately 30–60 seconds while MelonLoader generates `Il2CppAssemblies` for 4.1. Subsequent launches should be faster.)*
 
 **Note:** This patch was developed for Tproplay's English PC build of PvZ Fusion 4.1. Compatibility with other versions is not guaranteed.
