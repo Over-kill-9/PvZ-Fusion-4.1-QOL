@@ -35,7 +35,7 @@ This resolves compatibility issues that previously prevented normal plant fusion
 
 ## Installation
 
-1. Download and extract **[Tproplay's PvZ Fusion 4.1 English PC](https://github.com/Tproplay/Pvz-Fusion-Translation-Lite/releases)**.
+1. Download and extract **[Tproplay's PvZ Fusion 4.1 English PC](https://github.com/Tproplay/Pvz-Fusion-Translation-Lite/releases/tag/v4.1)**.
 2. Download `PvZ-Fusion-4.1-QOL-Patch.zip` from the [Google Drive download folder](https://drive.google.com/drive/folders/1ZKxkmejhJJa6j4xQley2iYD0T7WelMEK).
 3. Extract all contents of the ZIP into your PvZ Fusion 4.1 game folder, where `PlantsVsZombiesRH.exe` is located.
 4. Run `PlantsVsZombiesRH.exe`.
