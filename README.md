@@ -1,77 +1,76 @@
-# PvZ Fusion 4.1 English — QOL Patch
+# PvZ Fusion 4.1 English QOL
 
-A community-made compatibility patch that brings **Blooms' Quality-of-Life (QOL) mod** to **Plants vs. Zombies: Fusion 4.1 English PC**, using MelonLoader.
+A compatibility port of **Blooms QOL** for **PvZ Fusion 4.1 English**, translated by Tproplay.
 
-This patch updates the original QOL mod to work with Tproplay's English 4.1 release while preserving its core features.
+This patch brings the quality-of-life features from Blooms QOL to PvZ Fusion 4.1, allowing players to use forced Pumpkin and Flower Pot fusions and toggle the visibility of metal objects.
 
-## Download
+**This is a patch, not the full game.** You must download Tproplay's English version separately.
 
-**[Download PvZ Fusion 4.1 QOL Patch + Source Code (Google Drive)](https://drive.google.com/drive/folders/1ZKxkmejhJJa6j4xQley2iYD0T7WelMEK)**
+## Downloads
 
-The Google Drive folder contains:
+**Base Game:** [PvZ Fusion 4.1 English PC — Tproplay](https://github.com/Tproplay/Pvz-Fusion-Translation-Lite/releases/tag/v4.1)
 
-- `PvZ-Fusion-4.1-QOL-Patch.zip` — The QOL patch and required MelonLoader files.
-- `src` — Modified C# source code used to port the mod to version 4.1.
-
-**Note:** This download does not include the full game. You must download Tproplay's English PC version separately.
-
-## Features
-
-### Forced Pumpkin Fusion — Left Shift
-Hold **Left Shift** while placing a plant to prioritize fusing it with a Pumpkin on the selected tile.
-
-### Forced Flower Pot Fusion — Left Alt
-Hold **Left Alt** while placing a plant to prioritize fusing it with a Flower Pot on the selected tile.
-
-### Hide Metal Objects — F10
-Press **F10** to toggle the visibility of newly spawned metal objects and buckets.
-
-Objects become visible again when attracted by a Magnet-shroom.
-
-### PvZ Fusion 4.1 Compatibility
-Updated the original QOL mod's Harmony patches to account for changes to the game's internal methods in version 4.1.
-
-This resolves compatibility issues that previously prevented normal plant fusions from working.
+**QOL Patch:** [Download from Google Drive](https://drive.google.com/drive/folders/1ZKxkmejhJJa6j4xQley2iYD0T7WelMEK)
 
 ## Installation
 
-1. Download and extract **[Tproplay's PvZ Fusion 4.1 English PC](https://github.com/Tproplay/Pvz-Fusion-Translation-Lite/releases/tag/v4.1)**.
-2. Download `PvZ-Fusion-4.1-QOL-Patch.zip` from the [Google Drive download folder](https://drive.google.com/drive/folders/1ZKxkmejhJJa6j4xQley2iYD0T7WelMEK).
-3. Extract all contents of the ZIP into your PvZ Fusion 4.1 game folder, where `PlantsVsZombiesRH.exe` is located.
-4. Run `PlantsVsZombiesRH.exe`.
+1. Download [Tproplay's PvZ Fusion 4.1 English Translation](https://github.com/Tproplay/Pvz-Fusion-Translation-Lite/releases/tag/v4.1).
+2. Download the [PvZ Fusion 4.1 QOL Patch](https://drive.google.com/drive/folders/1ZKxkmejhJJa6j4xQley2iYD0T7WelMEK).
+3. Create a brand-new folder anywhere on your computer.
+4. Extract the contents of **both ZIP files** into the new folder. Make sure all files and folders are in the same location, without extra nested folders.
+5. Open the folder and launch `PlantsVsZombiesRH.exe`.
 
-**Important:** The first launch may take approximately 30–60 seconds while MelonLoader generates the required `Il2CppAssemblies` for version 4.1. Subsequent launches should be faster.
+**Note:** The first launch may take longer than usual while MelonLoader initializes.
+
+## Features
+
+| Key | Function |
+|---|---|
+| Left Shift | Force Pumpkin fusions |
+| Left Alt | Force Flower Pot fusions |
+| F10 | Toggle metal object visibility |
+
+The patch also preserves normal plant fusion functionality.
 
 ## Compatibility
 
-- **Game:** Plants vs. Zombies: Fusion
-- **Version:** 4.1
-- **Language:** English
+- **Game:** PvZ Fusion 4.1
+- **Translation:** Tproplay's English PC version
 - **Platform:** Windows PC
-- **Mod Loader:** MelonLoader
+- **Mod Loader:** MelonLoader (included in the patch)
 
-This patch was developed for **Tproplay's English PC build of PvZ Fusion 4.1**.
+This patch was created specifically for PvZ Fusion 4.1 English. Compatibility with other versions is not guaranteed.
 
-Compatibility with other versions or translations is not guaranteed.
+## Troubleshooting
 
-## Credits & Acknowledgments
+If the game launches but the QOL features do not work:
 
-This project builds upon the work of several developers and community contributors.
+1. Make sure you downloaded **PvZ Fusion 4.1 English PC** from Tproplay.
+2. Check that both ZIP files were extracted into the same folder.
+3. Make sure `PlantsVsZombiesRH.exe` and `version.dll` are in the same folder.
+4. Check that `Blooms_QOL.dll` is located inside the `Mods` folder.
+5. Restart the game.
 
-- **LanPiaoPiao / LanPiaoPiaoFly** — Original Plants vs. Zombies: Fusion developers.
-- **[Tproplay](https://github.com/Tproplay/Pvz-Fusion-Translation-Lite)** — PvZ Fusion 4.1 English PC translation.
-- **[cassidy / SillyStar-Github](https://github.com/SillyStar-Github/Blooms-QOL)** — Original Blooms QOL mod and C# source code.
-- **[Blooms / Teyliu and the PC Translation Community](https://github.com/Teyliu/PVZF-Translation)** — Community translation work and MelonLoader setup.
-- **[Over-kill-9](https://github.com/Over-kill-9)** — Ported the original QOL mod to PvZ Fusion 4.1, updated incompatible method signatures, resolved compilation errors, and packaged the compatibility patch.
+If problems persist, check `MelonLoader/Logs/Latest.log` for errors.
 
-All credit for the original game, translations, and QOL functionality belongs to their respective creators.
+## Credits
+
+Special thanks to the original developers and contributors whose work made this patch possible.
+
+- **LanPiaoPiao** — Original creator of PvZ Fusion.
+- **Tproplay** — [PvZ Fusion English Translation](https://github.com/Tproplay/Pvz-Fusion-Translation-Lite).
+- **cassidy / SillyStar-Github** — [Original Blooms QOL mod](https://github.com/SillyStar-Github/Blooms-QOL).
+- **Blooms / Teyliu** — [PvZ Fusion community translation project](https://github.com/Teyliu/PVZF-Translation).
+- **Over-kill-9** — Ported Blooms QOL for compatibility with PvZ Fusion 4.1 English.
+
+All credit for the original game, translation, and QOL functionality belongs to their respective creators.
 
 ## Disclaimer
 
-This is an **unofficial, non-commercial community compatibility project**.
+This is an unofficial, community-made compatibility patch.
 
-It is not affiliated with or endorsed by the original PvZ Fusion developers, Tproplay, Blooms, or other contributors.
+I am not affiliated with the original PvZ Fusion developers, Tproplay, or the original Blooms QOL developers.
 
-All original game content, translations, and third-party modifications remain the property of their respective creators and are subject to their applicable licenses and permissions.
+This project is provided for free and is not intended for commercial use.
 
-This project is intended to provide compatibility improvements for players using PvZ Fusion 4.1 English PC.
+The base game is not included in this download. Please obtain it from Tproplay's official release page.
